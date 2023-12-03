@@ -1,0 +1,61 @@
+﻿@model WebApplicationModelBinding.Models.Student
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Tələbənin Məlumatı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Tələbənin Ətraflı Məlumatı</h2>
+
+    <table>
+        <tr>
+            <th>ID</th>
+            <td>@Model.Id</td>
+        </tr>
+        <tr>
+            <th>Ad</th>
+            <td>@Model.Name</td>
+        </tr>
+        <tr>
+            <th>Soyad</th>
+            <td>@Model.Surname</td>
+        </tr>
+        <tr>
+            <th>Yaş</th>
+            <td>@Model.Age</td>
+        </tr>
+        <tr>
+            <th>Ixtisas</th>
+            <td>@Model.Speciality</td>
+        </tr>
+    </table>
+</body>
+</html>

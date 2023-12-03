@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\LEGION\\Desktop\\Application-CRUD\\WebApplicationModelBinding\\wwwroot\\assets\\js\\app.js",
+      "PackagePath": "staticwebassets\\assets\\js\\app.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebApplicationModelBinding.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebApplicationModelBinding.props",
+      "PackagePath": "build\\WebApplicationModelBinding.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplicationModelBinding.props",
+      "PackagePath": "buildMultiTargeting\\WebApplicationModelBinding.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebApplicationModelBinding.props",
+      "PackagePath": "buildTransitive\\WebApplicationModelBinding.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

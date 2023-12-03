@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "QBNqEZ/jN1LUcRjauxWEmB+Igei2q8CPLZL+wfPUYCM=",
+  "Source": "WebApplicationModelBinding",
+  "BasePath": "_content/WebApplicationModelBinding",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplicationModelBinding\\wwwroot",
+      "Source": "WebApplicationModelBinding",
+      "ContentRoot": "C:\\Users\\LEGION\\Desktop\\Application-CRUD\\WebApplicationModelBinding\\wwwroot\\",
+      "BasePath": "_content/WebApplicationModelBinding",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\LEGION\\Desktop\\Application-CRUD\\WebApplicationModelBinding\\wwwroot\\assets\\js\\app.js",
+      "SourceId": "WebApplicationModelBinding",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LEGION\\Desktop\\Application-CRUD\\WebApplicationModelBinding\\wwwroot\\",
+      "BasePath": "_content/WebApplicationModelBinding",
+      "RelativePath": "assets/js/app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\js\\app.js"
+    }
+  ]
+}
